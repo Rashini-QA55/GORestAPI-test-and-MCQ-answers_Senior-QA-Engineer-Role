@@ -1,0 +1,21 @@
+Section 1: Multiple Choice Questions
+
+1. Which of the following are MySQL comments?  
+Answer: A, B, C  
+Explanation: A (#), B (--), and C (/* */) are valid MySQL comment syntaxes. D (<!-- -->) is for HTML.
+
+2. The tester receives a new build with changes affecting the existing functionalities. What kind of additional testing is conducted to uncover issues in the existing functionalities?  
+Answer: D. Regression testing  
+Explanation: Regression testing ensures that new code changes do not affect existing functionality.
+
+3. Which of the following approaches will a tester adopt when confronted with the challenge of inadequate input documentation for testing?  
+Answer: D. Both A and B  
+Explanation: The tester can rely on screenshots, previous versions, and talk to developers/business analysts to understand the application.
+
+4. How can an application run on 2 different Android devices using Appium in parallel?  
+Answer: D. Start two Appium servers on different ports. Use the URL in both of the scripts and run them in parallel using TestNG.  
+Explanation: This is the standard method for running tests on multiple devices in parallel.
+
+5. What is the XPath to find the label for the input element with id='name'?  
+Answer: A. //label[@for='name']  
+Explanation: This directly targets the <label> linked to the input with id 'name'.
